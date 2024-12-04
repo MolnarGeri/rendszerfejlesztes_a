@@ -44,15 +44,6 @@ const Cart = () => {
           </div>
           <button onClick={()=>navigate('/order')}>Tovább a fizetéshez</button>
         </div>
-        <div className="cart-promocode">
-          <div>
-            <p>Ha van promóciós kódja írja be ide:</p>
-            <div className='cart-promocode-input'>
-              <input type="text" placeholder='promociós kód'/>
-              <button>Elfogad</button>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   )
